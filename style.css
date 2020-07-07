@@ -25,20 +25,38 @@
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
-    linear-gradient
 }
 .cat1{
-    background-color:linear-gradient(45de orange;)
+    background-color: orange;
 }
 .cat2{
-    background-color:linear-gradient(45de#ff136f;)
+    background-color: #ff136f;
 }
 .cat3{
-    background-color:linear-gradient(45de rgb(18, 18, 212));
+    background-color: rgb(18, 18, 212);
 }
-.categories h1{
+.categorise h1{
     color: white;
 }
-.categories img{
+.ccategorise img{
     width: 100px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+    
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
